@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+
+.botao{
+	text-decoration: none;
+	padding: 5px;
+	color: #eee;
+	border-radius: 5px;
+	margin: 3px;
+}
+
+.novo{
+	background-color: #039;
+	border: 1px solid #039;
+	cursor: pointer;
+}
+
+.editar {
+	background-color: #099;
+	border: 1px solid #039;
+}
+
+.deletar{
+	background-color:#800;
+	border: 1px solid #800;
+	
+}
+
+table{
+	border: 2px solid black;
+	border-collapse: collapse;
+	margin-bottom: 15px;
+}
+
+table th{
+	border: 2px solid black;
+	padding: 10px;
+	text-align: left;
+	
+}
+
+table td{
+	border: 2px solid black;
+	text-align: left;
+	padding: 10px;
+}
