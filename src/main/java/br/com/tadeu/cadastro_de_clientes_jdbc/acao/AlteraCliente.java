@@ -16,8 +16,8 @@ public class AlteraCliente implements Acao {
 	public String executa(HttpServletRequest request, HttpServletResponse response)
 			throws SQLException, ClassNotFoundException, ServletException {
 		
-		String idParam = request.getParameter("id");
-		Integer id = Integer.valueOf(idParam);
+		String idPara = request.getParameter("id");
+		Integer id = Integer.valueOf(idPara);
 		
 		ClienteDAO dao = new ClienteDAO(new ConnectionFactory().recuperaConexao());
 		
